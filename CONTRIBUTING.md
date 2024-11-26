@@ -6,8 +6,8 @@
   - `chore` для улучшений, не относящихся напрямую к коду
  
 Пример:
-feat(button): add primary color
-fix(api): resolve user authentication bug
+- feat(button): add primary color
+- fix(api): resolve user authentication bug
 
 # Внесение изменений в проект
 
