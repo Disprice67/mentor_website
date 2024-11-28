@@ -26,7 +26,6 @@
 1. **Клонируйте репозиторий**:
    ```bash
    git clone https://github.com/yourusername/mentor-site.git
-   cd mentor-site
 2. **Установите Poetry:
    ```bash
    curl -sSL https://install.python-poetry.org | python3 -
