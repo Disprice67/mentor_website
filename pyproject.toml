@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "mentor-website"
+version = "0.1.0"
+description = ""
+authors = ["Дмитрий Уткин"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+# Общие настройки
+line-length = 110
+target-version = "py38"
+
+[tool.ruff.lint]
+# Настройки линтинга
+ignore = ["ANN", "D"]
+select = ["E", "F", "W", "I"]
+isort = { known-first-party = ["my_package"] }
+
+[tool.ruff.isort]
+known-first-party = ["mentor-website"]
