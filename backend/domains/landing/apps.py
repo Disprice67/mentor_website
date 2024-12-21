@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CustomAdminConfig(AppConfig):
+class LandingConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "apps.custom_admin"
+    name = "domains.landing"
